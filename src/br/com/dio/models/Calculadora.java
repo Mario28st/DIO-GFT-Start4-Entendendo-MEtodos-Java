@@ -1,6 +1,6 @@
 package br.com.dio.models;
 
-public class Calculadora {
+public abstract class Calculadora {
 
     private double a, b;
 

@@ -8,7 +8,7 @@ public class Multiplicacao extends Calculadora {
         super(a, b);
     }
 
-    public double multiplicacao (double a, double b) {
-        return a*b;
+    public void multiplicacao (double a, double b) {
+        System.out.println("A multiplicação de " + a + " X " + b + " é " + (a * b));
     }
 }

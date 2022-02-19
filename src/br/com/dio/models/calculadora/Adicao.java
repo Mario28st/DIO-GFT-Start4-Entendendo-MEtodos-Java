@@ -9,7 +9,7 @@ public class Adicao extends Calculadora {
         super(a, b);
     }
 
-    public double adicao(double a, double b) {
-        return a+b;
+    public void adicao(double a, double b) {
+        System.out.println("A adição de " + a + " + " + b + " é " + (a+b));
     }
 }

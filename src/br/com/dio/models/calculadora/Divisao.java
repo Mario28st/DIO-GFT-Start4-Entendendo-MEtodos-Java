@@ -8,14 +8,11 @@ public class Divisao extends Calculadora {
 
     }
 
-    public double divisao (double a, double b) {
-        double resultado ;
+    public void divisao (double a, double b) {
         if (b == 0) {
             System.out.println("Não é possível dividir por ZERO");
-            return 0;
         } else {
-            resultado = a / b;
+            System.out.println("A divisão de " + a + " / " + b + " é " + (a / b));
         }
-        return resultado;
     }
     }

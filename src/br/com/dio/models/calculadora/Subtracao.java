@@ -7,7 +7,7 @@ public class Subtracao extends Calculadora {
         super(a, b);
     }
 
-    public double subtracao (double a, double b) {
-        return a-b;
+    public void subtracao (double a, double b) {
+        System.out.println("A subtração de " + a + " - " + b + " é " + (a - b));
     }
 }
